@@ -22,15 +22,15 @@ namespace System.DirectoryServices
 			{
 				// replace these values for security reasons
 				m_Name = value
-					.Replace(",", @"\,")
-					.Replace("\\", @"\,")
-					.Replace("#", @"\,")
-					.Replace("+", @"\,")
-					.Replace("<", @"\,")
-					.Replace(">", @"\,")
-					.Replace(";", @"\,")
-					.Replace("\",", @"\,")
-					.Replace("=", @"\,")
+					.Replace(@",", @"\,")
+					.Replace(@"\", @"\\")
+					.Replace(@"#", @"\#")
+					.Replace(@"+", @"\+")
+					.Replace(@"<", @"\<")
+					.Replace(@">", @"\>")
+					.Replace(@";", @"\;")
+					.Replace("\"", "\\\"")
+					.Replace(@"=", @"\=")
 					.Trim();
 			}
 		}
@@ -46,15 +46,15 @@ namespace System.DirectoryServices
 			{
 				// replace these values for security reasons
 				m_Value = value
-					.Replace(",", @"\,")
-					.Replace("\\", @"\,")
-					.Replace("#", @"\,")
-					.Replace("+", @"\,")
-					.Replace("<", @"\,")
-					.Replace(">", @"\,")
-					.Replace(";", @"\,")
-					.Replace("\",", @"\,")
-					.Replace("=", @"\,")
+					.Replace(@",", @"\,")
+					.Replace(@"\", @"\\")
+					.Replace(@"#", @"\#")
+					.Replace(@"+", @"\+")
+					.Replace(@"<", @"\<")
+					.Replace(@">", @"\>")
+					.Replace(@";", @"\;")
+					.Replace("\"", "\\\"")
+					.Replace(@"=", @"\=")
 					.Trim();
 			}
 		}
