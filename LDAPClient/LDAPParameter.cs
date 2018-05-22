@@ -1,4 +1,4 @@
-﻿namespace System.DirectoryServices
+﻿namespace System.DirectoryServices.LDAPClient
 {
     public class LDAPParameter
 	{
