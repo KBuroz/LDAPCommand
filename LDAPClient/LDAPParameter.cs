@@ -1,6 +1,6 @@
 ﻿namespace System.DirectoryServices.LDAPClient
 {
-    public class LDAPParameter
+    public class LDAPParameter : ILDAPParameter
 	{
 		public LDAPParameter() { }
 		public LDAPParameter(string name, string value)

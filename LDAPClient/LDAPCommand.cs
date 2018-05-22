@@ -2,8 +2,8 @@ using System.Collections.Generic;
 
 namespace System.DirectoryServices.LDAPClient
 {
-    public class LDAPCommand
-	{
+    public class LDAPCommand : ILDAPCommand
+    {
 		public List<LDAPParameter> Parameters { get; set; }
 		
 		public override string ToString()
